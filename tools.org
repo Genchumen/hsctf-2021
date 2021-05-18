@@ -1,0 +1,35 @@
+#+TITLE: HSCTF Tools
+#+AUTHOR: Sawyer Shepherd
+#+OPTIONS: toc:nil
+
+* Wi-Fi
+** aircrack-ng
+*** aircrack-ng
+*** airmon-ng
+*** airodump-ng
+*** aireplay-ng
+*** airolib-ng
+** bully (with pixie-wps)
+   
+** hcxdumptool
+** hcxtools
+
+* Cracking
+** hashcat
+*** OpenGL drivers
+** john
+   
+* Forensics
+** exiftool
+   
+* Reverse-Engineering
+** gdb
+   
+* Web Apps
+** burp-suite
+** zaproxy
+   
+* Programming Languages
+** Ruby
+** Python 2
+** Python 3
