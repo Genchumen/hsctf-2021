@@ -2,34 +2,48 @@
 #+AUTHOR: Sawyer Shepherd
 #+OPTIONS: toc:nil
 
-* Wi-Fi
-** aircrack-ng
-*** aircrack-ng
-*** airmon-ng
-*** airodump-ng
-*** aireplay-ng
-*** airolib-ng
-** bully (with pixie-wps)
-   
-** hcxdumptool
-** hcxtools
+* Networking
+  * hping3
+  * nmap
+  * ping
+  * masscan
+  * netcat/ncat/nc
 
+* Wi-Fi
+  * hcxdumptool
+  * hcxtools
+  * bully (with pixie-wps)
+** aircrack-ng
+   * aircrack-ng
+   * airmon-ng
+   * airodump-ng
+   * aireplay-ng
+   * airolib-ng
+
+* Clients
+  * ssh
+  * smbclient
+  * ftp
+  
 * Cracking
-** hashcat
-*** OpenGL drivers
-** john
+  * hashcat
+  * john
    
 * Forensics
-** exiftool
+  * exiftool
+  * hexdump
+  * xxd
+  * strings
    
 * Reverse-Engineering
-** gdb
+  * gdb
+  * ghidra
    
 * Web Apps
-** burp-suite
-** zaproxy
+  * burp-suite
+  * zaproxy
    
-* Programming Languages
-** Ruby
-** Python 2
-** Python 3
+* Scripting Languages
+  * Ruby
+  * Python 2
+  * Python 3
