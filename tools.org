@@ -40,10 +40,18 @@
   * ghidra
    
 * Web Apps
-  * burp-suite
+  * burpsuite
   * zaproxy
    
 * Scripting Languages
   * Ruby
   * Python 2
   * Python 3
+
+* Wordlists
+  * rockyou
+  * BreachCompillation
+
+* Brute-Forcing
+  * hydra
+  * gobuster
