@@ -8,6 +8,12 @@
   * ping
   * masscan
   * netcat/ncat/nc
+  * openvpn
+  * wireguard
+  * curl
+  * dig
+  * mitmproxy
+  * p0f
 
 * Wi-Fi
   * hcxdumptool
@@ -24,34 +30,61 @@
   * ssh
   * smbclient
   * ftp
+  * curl
+
+* Shells/Payloads
+  * PHP webshell
+  * SUID Python shell
   
-* Cracking
+* Cryptography
+  * openssl
+  * gpg
   * hashcat
   * john
    
 * Forensics
+  * file
   * exiftool
   * hexdump
   * xxd
   * strings
+  * wireshark
+  * mitmproxy
    
 * Reverse-Engineering
   * gdb
   * ghidra
+  * xxd
+  * hexdump
    
 * Web Apps
   * burpsuite
   * zaproxy
    
-* Scripting Languages
+* Programming Languages
+  * Assembly
+  * C
   * Ruby
+  * Perl
   * Python 2
   * Python 3
 
 * Wordlists
   * rockyou
   * BreachCompillation
+  * dirb
+  * dirbuster
+  * raft
 
 * Brute-Forcing
   * hydra
   * gobuster
+
+* Miscellaneous
+  * firefox
+  * sway
+  * discord
+  * tampermonkey
+  * ripgrep
+  * rysnc
+  * moreutils
