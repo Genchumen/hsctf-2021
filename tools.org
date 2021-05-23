@@ -93,4 +93,5 @@
   * tampermonkey
   * ripgrep
   * rysnc
+  * binutils
   * moreutils
