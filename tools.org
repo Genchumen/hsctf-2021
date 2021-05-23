@@ -86,6 +86,7 @@
   * gobuster
 
 * Miscellaneous
+  * vim
   * firefox
   * sway
   * discord
