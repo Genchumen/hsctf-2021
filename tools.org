@@ -32,6 +32,11 @@
   * ftp
   * curl
 
+* Exploits
+  * sqlmap
+  * metasploit
+  * searchsploit
+
 * Shells/Payloads
   * PHP webshell
   * SUID Python shell
