@@ -227,6 +227,7 @@
     moreutils
     sqlmap
     metasploit
+    nasm
 	];
   networking.wireguard.enable = true;
 	fonts.fonts = with pkgs; [
