@@ -3,95 +3,93 @@
 #+OPTIONS: toc:nil
 
 * Networking
-  * hping3
-  * nmap
-  * ping
-  * masscan
-  * netcat/ncat/nc
-  * openvpn
-  * wireguard
-  * curl
-  * dig
-  * mitmproxy
-  * p0f
+  * hping3 :: Send arbitrary TCP packets
+  * nmap :: Network exploration tool
+  * ping :: Send ICMP requests
+  * masscan :: Port scan many hosts quickly
+  * netcat/ncat/nc :: Read and write to network connections
+  * openvpn :: VPN daemon
+  * wireguard :: Smaller, faster VPN daemon
+  * dig :: DNS lookup
+  * mitmproxy :: HTTP man-in-the-middle proxy
+  * p0f :: Passive TCP fingerprinting
 
 * Wi-Fi
-  * hcxdumptool
-  * hcxtools
-  * bully (with pixie-wps)
+  * hcxdumptool :: Capture packets from wlan
+  * hcxtools :: Convert packet captures to be used with hashcat/john
+  * bully (with pixie-wps) 
 ** aircrack-ng
-   * aircrack-ng
-   * airmon-ng
-   * airodump-ng
-   * aireplay-ng
-   * airolib-ng
+   * aircrack-ng :: WEP/WPA PSK cracker
+   * airmon-ng :: Script to put wireless card in monitor mode
+   * airodump-ng :: Wlan packet capture tool 
+   * aireplay-ng :: Inject packets into a network
+   * airolib-ng :: Create rainbow tables for aircrack to use
 
 * Clients
-  * ssh
-  * smbclient
-  * ftp
-  * curl
+  * ssh :: Secure shell client
+  * smbclient :: Access samba shares
+  * ftp :: File transfer protocol client
+  * curl :: Transfer data with a bunch of different protocols
 
 * Exploits
-  * sqlmap
-  * metasploit
-  * searchsploit
+  * sqlmap :: Automatic SQL injection
+  * metasploit :: Automatically exploit vulnerabilities
+  * searchsploit (exploitdb) :: Query exploit-db
 
 * Shells/Payloads
-  * PHP webshell
-  * SUID Python shell
+  * PHP webshell :: Exploit an insecure file upload
+  * GFTOBins :: Use misconfigured binaries to escalate privs
   
 * Cryptography
-  * openssl
-  * gpg
-  * hashcat
-  * john
+  * openssl :: Do basically anything with TLS certs
+  * gpg :: PGP encryption/signing tool
+  * hashcat :: GPU passphrase cracking
+  * john :: CPU passphrase cracking
    
 * Forensics
-  * file
-  * exiftool
-  * hexdump
-  * xxd
-  * strings
-  * wireshark
-  * mitmproxy
+  * file :: Determine file types
+  * exiv2 :: Manipulate image metadata
+  * hexdump :: Display file in hex/ASCII
+  * xxd :: Make or reverse a hexdump
+  * strings :: Display a file as ASCII
+  * wireshark :: 
    
 * Reverse-Engineering
-  * gdb
-  * ghidra
-  * xxd
-  * hexdump
+  * gdb :: The GNU debugger
+  * ghidra :: NSA reverse engineering tool
    
 * Web Apps
   * burpsuite
   * zaproxy
    
 * Programming Languages
-  * Assembly
-  * C
-  * Ruby
-  * Perl
-  * Python 2
-  * Python 3
+  * gas (AT&T Assembly)
+  * nasm (Intel Assembly)
+  * gcc (C)
+  * clang (C)
+  * ruby
+  * perl
+  * python2
+  * python3
 
 * Wordlists
-  * rockyou
-  * BreachCompillation
-  * dirb
-  * dirbuster
-  * raft
+  * rockyou :: Small password list
+  * BreachCompillation :: Massive password list
+  * dirb :: File path fuzzing
+  * dirbuster :: File path fuzzing
+  * raft :: File path fuzzing
 
 * Brute-Forcing
-  * hydra
-  * gobuster
+  * hydra :: Versatile login brute-forcer
+  * gobuster :: Fuzz hidden files on webservers and more
 
 * Miscellaneous
-  * vim
-  * firefox
-  * sway
-  * discord
-  * tampermonkey
-  * ripgrep
-  * rysnc
-  * binutils
-  * moreutils
+  * vim :: Text editor
+  * firefox :: Browser
+  * sway :: Window manager
+  * discord :: Proprietary (yuck!) communication platform
+  * tampermonkey :: Firefox script plugin
+  * ripgrep :: Faster grep
+  * rysnc :: Remote file syncing tool
+  * binutils :: Has many of the above binaries in it
+  * moreutils :: Some quality of life tools
